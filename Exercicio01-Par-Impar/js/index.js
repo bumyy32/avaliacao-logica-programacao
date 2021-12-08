@@ -19,7 +19,7 @@ botao.addEventListener("click", function() {
         document.querySelector("#resultado2").innerHTML = "O resultado é: " + (num2 + 7);
     }
 
-    if (num3 % 3 == 0) {
+    if (num3 % 2 == 0) {
         document.querySelector("#resultado3").innerHTML = "O resultado é: " + num3 * 3
     }
     else{
